@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+<head>
+<title>Parasponsive</title>
+<link rel=stylesheet type="text/css" href="css/css.css"/>
+<body background="images/ERWCODE.JPG" style="background-attachment:fixed"  margin-left:100
+margin-right:50/>
+margin-bottom:0px;></body>
+<center><div class="tit"><h2 style="color: #0000FF; ">Inicio de sesión</h2>
+<center><div class="Ingreso">;  
+        
+<div id="principal"><br><img style="background-attachment:scroll" src="images/imagen1.JPG"/></br>   
+<form id="form-login" action="#" method="post">
+<p><label for="nombre">Nombre:</label></p>
+<input name="nombre" type="text" id="nombre" placeholder="Pon tu nombre" autofocus=""/>
+<p><label for="pass">Password:</label></p>
+<input name="pass" type="password" id="pass" placeholder="Pon tu contraseña"/>
+<p id="bot"><input name="submit" type="submit" id="boton" value="Registrar"/></p>
+</form></div>   
+    
+<div id="header" align-text="center">
+    <ol>
+         <p><h2><br><li>EASY USE</li>
+         <p><h2><br><li>RESPONSIVE THEME</li>
+         </ol>
+</div>   
+
+<div id="header1" align-text="center">
+        <ul>
+            <p><h2><li>SERVICES WE PROVIDE<br></li>
+            <p><li>FULLI CUSTOMIZABLE</li>
+            <p><br><li>PROFECIONAL DESING</li>
+            <p><br><li>HTLM 5</li>
+         </ul>
+</h2></div>
+
+<div id="header2">
+<p><h2><br>ORIGINAL PORTAFOLIO</br></h2></p>
+   
+ </div>
+
+<div id="main" aling-text="center">
+<h2>PORTAFOLIO</h2><br>
+<br>
+</div>
+
+<section>
+    <h3>PRICING TABLE</h3>
+    <h4>BEATIFUL ORIGINAL TABLE</h4>
+</section>
+        
+<div id="footer">
+<data>05 de febrero de 2018</data>
+<author><p>Diana Margarita Garza Martínez</p></author>
+<p>fin</p>
+</table>
+</div>       
+</body>
+</html>
+
+<?php
+		if(isset($_POST['submit'])){
+			require("registro.php");
+		}
+	?>
+<!--Fin formulario registro -->
+
+		</td>
+		</tr>
+		</table>
+		</div></center></div></center>
+
+	 
+</body>
+</html>
